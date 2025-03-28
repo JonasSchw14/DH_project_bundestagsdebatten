@@ -16,5 +16,5 @@ extraction of speeches from protocoll raw data, they are saved as .npy file
 building the bertopic model, fitting it to the documents (speeches) and saving it 
 
 # eval_visual.py
-evauluation and visualization of the trained model
+evaluation and visualization of the trained model
 
