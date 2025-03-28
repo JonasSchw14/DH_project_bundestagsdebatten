@@ -5,9 +5,8 @@ import numpy as np
 
 #file paths
 data_path = r'C:\Users\jonas\OneDrive\Dokumente\Master Data Science\1. Semester\Digital Humanities\project\data'
-input_folder = data_path + r"\Wahlperiode 20"  # Ordner mit Protokolldateien
-output_folder = data_path + r"\reden_die_linke"  # Zielordner für die extrahierten Dateien
-
+input_folder = data_path + r"\Wahlperiode 20"  # folder with raw protocoll data
+output_folder = data_path + r"\reden_die_linke"  
 def extract_speeches(root):
     """
     extracts the speeches from speakers of the fraction 'Die Linke'
